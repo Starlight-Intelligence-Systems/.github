@@ -1,0 +1,14 @@
+# Starlight Intelligence Systems (Starlight-Intelligence-Systems) — Organization Default CODEOWNERS
+# Website: https://starlightintelligence.org
+# Brand ID: sis | Governance Mode: active
+# Steward Agent: steward-starlight
+# Executive Seat: CSO (Strategy & Protocol) + CAIO (AI & Swarm Governance)
+# Universal IS: Starlight Orchestrator,Second Brain IS,Self IS
+# Council Lead: starlight-prime,starlight-sage,starlight-hermes
+# Primary Harnesses: Claude Code, Antigravity, Codex, OpenCode
+#
+# Human approval gate (Maker != Checker invariant):
+* @frankxai
+/.github/ @frankxai
+/AGENTS.md @frankxai
+/SECURITY.md @frankxai
