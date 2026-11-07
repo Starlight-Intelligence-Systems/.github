@@ -17,29 +17,29 @@ flowchart LR
   SIS["Starlight-Intelligence-System<br/>Core substrate & 6 vaults"] --> SW["starlight-swarm<br/>Multi-agent coordination"]
   SIS --> KT["starlight-knowledge-tree<br/>Knowledge graph & synthesis"]
   SIS --> RH["starlight-research-hub<br/>Substrate research & benchmarks"]
-  SIS --> CE["starlight-cosmos-engine<br/>3D memory palace & graph UI"]
+  SIS --> CE["starlight-cosmos-engine<br/>Cosmos content pipeline"]
 ```
 
 ## Flagship repositories
 
 | Repository | Purpose | Link |
 | :--- | :--- | :--- |
-| [**Starlight-Intelligence-System**](https://github.com/Starlight-Intelligence-Systems/Starlight-Intelligence-System) | Shared cognitive substrate for AI fleets: six typed memory vaults, hybrid FTS5 recall, and 151 specialist agent profiles. | [Website](https://starlightintelligence.org) |
-| [**starlight-swarm**](https://github.com/Starlight-Intelligence-Systems/starlight-swarm) | Swarm coordination substrate for heterogeneous frontier agent harnesses. | [Website](https://starlightintelligence.org) |
-| [**starlight-knowledge-tree**](https://github.com/Starlight-Intelligence-Systems/starlight-knowledge-tree) | Structured knowledge-graph engine with source provenance and automated synthesis. | [Website](https://starlightintelligence.org) |
-| [**starlight-research-hub**](https://github.com/Starlight-Intelligence-Systems/starlight-research-hub) | Public substrate research, memory architecture benchmarks, and multi-agent synthesis. | [Website](https://starlightintelligence.org/research) |
-| [**starlight-cosmos-engine**](https://github.com/Starlight-Intelligence-Systems/starlight-cosmos-engine) | Interactive 3D spatial memory palace and knowledge topology visualizer. | [Website](https://starlightintelligence.org) |
+| [**Starlight-Intelligence-System**](https://github.com/Starlight-Intelligence-Systems/Starlight-Intelligence-System) | Shared cognitive substrate for AI fleets: six typed memory vaults, hybrid FTS5 recall, and 151 registered agent profiles. | [Website](https://starlightintelligence.org) |
+| [**starlight-swarm**](https://github.com/Starlight-Intelligence-Systems/starlight-swarm) | Queen-led orchestration substrate for heterogeneous frontier agent harnesses. | [Website](https://starlightintelligence.org/queen) |
+| [**starlight-knowledge-tree**](https://github.com/Starlight-Intelligence-Systems/starlight-knowledge-tree) | Open intelligence graph for domains, concepts, skills, evidence, and contribution paths. | [Website](https://starlightintelligence.org/knowledge-tree) |
+| [**starlight-research-hub**](https://github.com/Starlight-Intelligence-Systems/starlight-research-hub) | Weekly research surface: model comparisons, architecture notes, MCP connector maps, and a system view built with Next.js and xyflow. | [Website](https://starlightintelligence.org/research) |
+| [**starlight-cosmos-engine**](https://github.com/Starlight-Intelligence-Systems/starlight-cosmos-engine) | Cosmos content production monorepo: agents, MCP adapters, and pipelines that turn space imagery and research into published stories. | [Website](https://starlightintelligence.org/cosmos) |
 
 ## Quickstart
 
-```bash
-# Initialize a Starlight Intelligence System workspace
-npx @starlight-intelligence/sis@latest init
+Start with the [quickstart](https://starlightintelligence.org/quickstart). To build the reference substrate:
 
-# Clone the reference substrate
+```bash
 git clone https://github.com/Starlight-Intelligence-Systems/Starlight-Intelligence-System.git
-cd Starlight-Intelligence-System && npm test
+cd Starlight-Intelligence-System && npm install && npm run build
 ```
+
+The full test suite runs with `npm test`.
 
 ## Engineering standards
 
